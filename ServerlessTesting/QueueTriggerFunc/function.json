@@ -1,0 +1,19 @@
+﻿{
+  "disabled": false,
+  "bindings": [
+    {
+      "name": "queueItem",
+      "direction": "in",
+      "queueName": "funcqueue",
+      "type": "queueTrigger",
+      "connection": "Storage_Connection"
+    },
+    {
+      "name": "tableItem",
+      "direction": "out",
+      "tableName": "functable",
+      "type": "table",
+      "connection": "Storage_Connection"
+    }
+  ]
+}
